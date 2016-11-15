@@ -1,0 +1,11 @@
+{
+  "name": "redux-react-showtime",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolás Baglivo <nicolas.baglivo@gmail.com>",
+  "license": "ISC"
+}
