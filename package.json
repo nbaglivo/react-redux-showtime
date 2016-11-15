@@ -2,13 +2,20 @@
   "name": "redux-react-showtime",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "mkdir -p lib && babel ./src --out-dir ./lib",
+    "prepublish": "rm -rf lib && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nicolás Baglivo <nicolas.baglivo@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "react-redux": "^4.4.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0"
   }
 }
